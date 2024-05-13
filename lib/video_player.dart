@@ -61,7 +61,6 @@ class _VideoPlayerState extends State<VideoPlayer> {
     return SafeArea(
       child: Video(
           videoPlayerController: VideoPlayerController.network(
-              //https://vz-6c12489b-03e.b-cdn.net/75d7bbf8-b441-4f9d-957f-983ba0d37b68/play_720p.mp4
               "https://$pullZoneUrl.b-cdn.net/$videoId/play_${resolutionHeight}p.mp4",
               httpHeaders: {
                 "AccessKey": apiKey,
