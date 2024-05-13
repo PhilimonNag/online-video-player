@@ -31,12 +31,14 @@ To run this project locally, follow these steps:
 
 1. Clone this repository `https://github.com/PhilimonNag/online-video-player.git`
 2. Navigate to the project directory `cd online_video_player`
-3. Add .env file this thing from your Bunny.net
-   ` videoId =
-     resolutionHeight = 
-     apiKey =
-     pullZoneUrl =
-   `
+3. Add .env file with your own details
+   ```
+      videoId=your_video_id_here
+      resolutionHeight=your_resolution_height_here
+      apiKey=your_api_key_here
+      pullZoneUrl=your_pull_zone_url_here
+
+   ```
 5. Run `flutter pub get` to install dependencies.
 6. Run the project using your preferred Flutter development environment `flutter run`
 
