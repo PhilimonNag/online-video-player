@@ -22,7 +22,7 @@ With Bunny.net Stream's seamless integration, smooth playback, and optimized per
 
 ## Project Structure
 
-- `/src`: Contains source code for the video player integration.
+- `/lib`: Contains source code for the video player integration.
 - `/assets`: Stores assets used in the project, such as video files and images.
 
 ## Getting Started
@@ -31,9 +31,14 @@ To run this project locally, follow these steps:
 
 1. Clone this repository `https://github.com/PhilimonNag/online-video-player.git`
 2. Navigate to the project directory `cd online_video_player`
-3. Add .env file
-4. Run `flutter pub get` to install dependencies.
-5. Run the project using your preferred Flutter development environment `flutter run`
+3. Add .env file this thing from your Bunny.net
+   ` videoId =
+     resolutionHeight = 
+     apiKey =
+     pullZoneUrl =
+   `
+5. Run `flutter pub get` to install dependencies.
+6. Run the project using your preferred Flutter development environment `flutter run`
 
 ## Author
 
