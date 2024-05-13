@@ -1,5 +1,5 @@
 # online_video_player
-# Bunny.net Stream Integration for Online Video Streaming Service
+## Bunny.net Stream Integration for Online Video Streaming Service
 
 This project successfully integrates Bunny.net Stream, a powerful online video streaming service, with a custom video player and authentication system.
 
@@ -29,10 +29,11 @@ With Bunny.net Stream's seamless integration, smooth playback, and optimized per
 
 To run this project locally, follow these steps:
 
-1. Clone this repository.
-2. Navigate to the project directory.
-3. Run `flutter pub get` to install dependencies.
-4. Run the project using your preferred Flutter development environment.
+1. Clone this repository `https://github.com/PhilimonNag/online-video-player.git`
+2. Navigate to the project directory `cd online_video_player`
+3. Add .env file
+4. Run `flutter pub get` to install dependencies.
+5. Run the project using your preferred Flutter development environment `flutter run`
 
 ## Author
 
