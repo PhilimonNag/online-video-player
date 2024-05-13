@@ -1,16 +1,44 @@
 # online_video_player
+# Bunny.net Stream Integration for Online Video Streaming Service
 
-A new Flutter project.
+This project successfully integrates Bunny.net Stream, a powerful online video streaming service, with a custom video player and authentication system.
+
+## Integration Overview
+
+With Bunny.net Stream's seamless integration, smooth playback, and optimized performance, this project delivers high-quality video content to web applications. The integration utilizes Flutter and Dart technologies.
+
+## Features
+
+- **Smooth Playback**: Utilizes Bunny.net Stream for seamless playback of high-quality video content.
+- **Custom Video Player Interface**: Implemented using `video_player` and `chewie` libraries, offering features like play, pause, seek, and volume control.
+- **Secure Video Playback**: Implemented Bunny.net's authentication system using API keys for authorized access and to prevent unauthorized distribution.
+
+## Technologies Used
+
+- Flutter
+- Dart
+- video_player library
+- chewie library
+
+## Project Structure
+
+- `/src`: Contains source code for the video player integration.
+- `/assets`: Stores assets used in the project, such as video files and images.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone this repository.
+2. Navigate to the project directory.
+3. Run `flutter pub get` to install dependencies.
+4. Run the project using your preferred Flutter development environment.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Author
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Philimon Nag]
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
